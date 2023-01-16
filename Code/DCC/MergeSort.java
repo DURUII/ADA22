@@ -24,6 +24,9 @@ public class MergeSort {
         for (int i = 0; i < A.length; i++) System.out.print(A[i] + " ");
     }
 
+    /**
+     * O(nlogn)
+     */
     static void mergeSort(int l, int r) {
         // base case
         if (l >= r) return;
