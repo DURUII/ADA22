@@ -11,7 +11,7 @@ public class Hanoi {
     }
 
     /**
-     * 将 src 柱上 n 个盘片，借助 spare 柱，转移至 dest 柱
+     * 将 src 塔上 n 个盘片，借助 spare 塔，转移至 dest 塔
      */
     static void move(int n, String src, String dest, String spare) {
         // base case
