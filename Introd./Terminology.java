@@ -18,7 +18,7 @@ import java.io.*;
  * [optimal]: upper and lower bounds match
  */
 
-public class Main{
+public class Terminology{
     public static void main(String[] args) throws IOException{
         StreamTokenizer in = new StreamTokenizer(new BufferedReader(new InputStreamReader(System.in)));
         in.nextToken(); 
