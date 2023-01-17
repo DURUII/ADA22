@@ -9,17 +9,19 @@ public class Fibonacci {
         while (true) {
             int n = sc.nextInt();
             if (n >= 0) {
-                System.out.println(f(n));
+                System.out.println(fib(n));
             }
         }
     }
 
-    // Recurrence
-    static int f(int n) {
+    /**
+     * Recurrence
+     */
+    static int fib(int n) {
         // base case: directly output
         if (n < 2) return 1;
         // recursive case: divide the problem into two sub-problems
         // compute each sub-problem recursively and add them both
-        return f(n - 1) + f(n - 2);
+        return fib(n - 1) + fib(n - 2);
     }
 }
