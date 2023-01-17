@@ -1,21 +1,20 @@
 # ADA22
-https://www.csie.ntu.edu.tw/~yvchen/f111-ada/
 
 ## Divide, Conquer & Combine
-| Desc. |  Name   |  Code  |O.J.   |
+| Desc. |  Prob.   |  Ref. Code  | 
 |:--:|:---:|:---:|:---:|
-| 引入 |  斐波那契   |     |      |
-| 首部曲 |  汉诺塔   |     |      |
-| 首部曲 |  归并排序  |     |     |
-| 首部曲 |  双调最值  |     |     |
-| 首部曲 |  最大子数组和  |     |     |
-| 🧧 |  直线划分平面   |     |     |
-| 🧧 |  约瑟夫环   |     |     |
-| 🧧 |  汉诺四塔   |     |     |
-| 神乎其技 |  矩阵乘法   |     |     |
-| 神乎其技 |  TOP-K   |     |     |
-| 神乎其技 |  最近邻点   |     |     |
-
+| 引入 |  [斐波那契](https://leetcode.cn/problems/fei-bo-na-qi-shu-lie-lcof/)   |  [Fibonacci.java](https://github.com/DURUII/ADA22/blob/4f9bfc71e734f5d590f7eb8f4397396af14b1c46/Code/DCC/Fibonacci.java)   | 
+| 首部曲 |  [汉诺塔]()   |  [Hanoi.java](https://github.com/DURUII/ADA22/blob/4f9bfc71e734f5d590f7eb8f4397396af14b1c46/Code/DCC/Hanoi.java)   | 
+| ✍️ |  [汉诺四塔](https://www.acwing.com/problem/content/98/)   |  [Hanoi4.java](https://github.com/DURUII/ADA22/blob/4f9bfc71e734f5d590f7eb8f4397396af14b1c46/Code/DCC/Hanoi4.java)  | 
+| ✍️|[双盘汉诺塔](https://www.luogu.com.cn/problem/P1096)|...|  
+| 🧑‍🏫 |  [直线划分平面](https://www.luogu.com.cn/problem/T291123)   |     |   
+| 🧑‍🏫 |  [约瑟夫环](https://www.luogu.com.cn/problem/T291920)   |     |  
+| 首部曲 |  [归并排序](https://www.acwing.com/problem/content/789/)  |   [MergeSort.java](https://github.com/DURUII/ADA22/blob/4f9bfc71e734f5d590f7eb8f4397396af14b1c46/Code/DCC/MergeSort.java)  | 
+| 首部曲 |  [双调最值](https://leetcode.cn/problems/peak-index-in-a-mountain-array/)  |  [BitonicChampion.java](https://github.com/DURUII/ADA22/blob/4f9bfc71e734f5d590f7eb8f4397396af14b1c46/Code/DCC/BitonicChampion.java)  |  
+| 首部曲 |  [最大子数组和](https://leetcode.cn/problems/maximum-subarray/)  |  [MaxSubArray.java](https://github.com/DURUII/ADA22/blob/4f9bfc71e734f5d590f7eb8f4397396af14b1c46/Code/DCC/MaxSubArray.java)   |  
+| 神乎其技 |  矩阵乘法   | [matrix.ipynb](https://github.com/DURUII/ADA22/blob/4f9bfc71e734f5d590f7eb8f4397396af14b1c46/Code/DCC/matrix.ipynb)    |  
+| 神乎其技 |  [TOP-K](https://leetcode.cn/problems/kth-largest-element-in-an-array/)   |  [K_Selection.java](https://github.com/DURUII/ADA22/blob/4f9bfc71e734f5d590f7eb8f4397396af14b1c46/Code/DCC/K_Selection.java)   |  
+| 神乎其技 |  [最近邻点](https://www.spoj.com/problems/CLOPPAIR/)   |     | 
 ## Dynamic Programming
 
 ## Greedy
@@ -23,3 +22,5 @@ https://www.csie.ntu.edu.tw/~yvchen/f111-ada/
 ## Graph
 
 ## Non-deterministic Polynomial Complete
+
+## Random
