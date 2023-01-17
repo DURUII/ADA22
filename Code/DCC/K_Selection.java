@@ -12,9 +12,6 @@ public class K_Selection {
         System.out.println(findKthLargest(a, 5));
     }
 
-    /**
-     *
-     */
     static int findKthLargest(int[] nums, int k) {
         // base case
         if (nums.length <= 4) {
