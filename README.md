@@ -8,7 +8,7 @@
 |🍳 |[双盘汉诺塔](https://www.luogu.com.cn/problem/P1096)|[Hanoi2.java](https://github.com/DURUII/ADA22/blob/762b096198902b226fec3edf3df6e425b26ba0cc/Code/DCC/Hanoi2.java)| 
 | 🧑‍🏫 |  [汉诺四塔](https://www.acwing.com/problem/content/98/)   |  [Hanoi4.java](https://github.com/DURUII/ADA22/blob/4f9bfc71e734f5d590f7eb8f4397396af14b1c46/Code/DCC/Hanoi4.java)  |  
 | 🍳 |  [直线划分平面](https://www.luogu.com.cn/problem/T291123)   |  [Plane.java](https://github.com/DURUII/ADA22/blob/cc7f90592931a41438e0ceea8ba477cc9e28e3aa/Code/DCC/Plane.java)   |   
-| 🧑‍🏫 |  [约瑟夫环](https://www.luogu.com.cn/problem/T291920)   |     |  
+| 🧑‍🏫 |  [约瑟夫环](https://www.luogu.com.cn/problem/T291920)   |  [Josephus.java](https://github.com/DURUII/ADA22/blob/a4300880a9e381aae3ad372186b140fe62db1001/Code/DCC/Josephus.java)   |  
 | 首部曲 |  [归并排序](https://www.acwing.com/problem/content/789/)  |   [MergeSort.java](https://github.com/DURUII/ADA22/blob/4f9bfc71e734f5d590f7eb8f4397396af14b1c46/Code/DCC/MergeSort.java)  | 
 | 首部曲 |  [双调最值](https://leetcode.cn/problems/peak-index-in-a-mountain-array/)  |  [BitonicChampion.java](https://github.com/DURUII/ADA22/blob/4f9bfc71e734f5d590f7eb8f4397396af14b1c46/Code/DCC/BitonicChampion.java)  |  
 | 首部曲 |  [最大子数组和](https://leetcode.cn/problems/maximum-subarray/)  |  [MaxSubArray.java](https://github.com/DURUII/ADA22/blob/4f9bfc71e734f5d590f7eb8f4397396af14b1c46/Code/DCC/MaxSubArray.java)   |  
