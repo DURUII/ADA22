@@ -1,6 +1,5 @@
 package DCC;
 
-// https://leetcode.cn/problems/maximum-subarray/
 public class MaxSubArray {
     static int[] A = new int[]{5, 4, -1, 7, 8};
 
@@ -9,7 +8,7 @@ public class MaxSubArray {
     }
 
     /**
-     * O(nlogn)
+     * O(nlogn), which only provide a rather decent upper bound
      */
     static int maxSubArray(int[] nums, int lo, int hi) {
         // base case
