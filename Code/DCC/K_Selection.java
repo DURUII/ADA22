@@ -61,7 +61,7 @@ public class K_Selection {
         } else if (k - 1 < more.size() + equal.size()) {
             return MoM;
         }
-        
+
         int[] lessArray = new int[less.size()];
         for (int i = 0; i < less.size(); i++) lessArray[i] = less.get(i);
         return findKthLargest(lessArray, k - more.size() - equal.size());
