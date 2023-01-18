@@ -3,10 +3,10 @@
 ## Divide, Conquer & Combine
 | Desc. |  Prob.   |  Ref. Code  | 
 |:--:|:---:|:---:|
-| 引入 |  [斐波那契](https://leetcode.cn/problems/fei-bo-na-qi-shu-lie-lcof/)   |  [Fibonacci.java](https://github.com/DURUII/ADA22/blob/4f9bfc71e734f5d590f7eb8f4397396af14b1c46/Code/DCC/Fibonacci.java)   | 
-| 首部曲 |  [汉诺塔]()   |  [Hanoi.java](https://github.com/DURUII/ADA22/blob/4f9bfc71e734f5d590f7eb8f4397396af14b1c46/Code/DCC/Hanoi.java)   | 
-| ✍️ |  [汉诺四塔](https://www.acwing.com/problem/content/98/)   |  [Hanoi4.java](https://github.com/DURUII/ADA22/blob/4f9bfc71e734f5d590f7eb8f4397396af14b1c46/Code/DCC/Hanoi4.java)  | 
-| ✍️|[双盘汉诺塔](https://www.luogu.com.cn/problem/P1096)|...|  
+| 引入 |  [斐波那契](https://www.acwing.com/problem/content/19/)   |  [Fibonacci.java](https://github.com/DURUII/ADA22/blob/4f9bfc71e734f5d590f7eb8f4397396af14b1c46/Code/DCC/Fibonacci.java)   | 
+| 首部曲 / <a href="https://mathsisfun.com/games/towerofhanoi.html">线上游戏</a> |  [汉诺塔](https://www.lanqiao.cn/problems/1512/learning/)   |  [Hanoi.java](https://github.com/DURUII/ADA22/blob/4f9bfc71e734f5d590f7eb8f4397396af14b1c46/Code/DCC/Hanoi.java)   | 
+|🍳 |[双盘汉诺塔](https://www.luogu.com.cn/problem/P1096)|[]()| 
+| 🧑‍🏫 |  [汉诺四塔](https://www.acwing.com/problem/content/98/)   |  [Hanoi4.java](https://github.com/DURUII/ADA22/blob/4f9bfc71e734f5d590f7eb8f4397396af14b1c46/Code/DCC/Hanoi4.java)  |  
 | 🧑‍🏫 |  [直线划分平面](https://www.luogu.com.cn/problem/T291123)   |     |   
 | 🧑‍🏫 |  [约瑟夫环](https://www.luogu.com.cn/problem/T291920)   |     |  
 | 首部曲 |  [归并排序](https://www.acwing.com/problem/content/789/)  |   [MergeSort.java](https://github.com/DURUII/ADA22/blob/4f9bfc71e734f5d590f7eb8f4397396af14b1c46/Code/DCC/MergeSort.java)  | 
