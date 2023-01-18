@@ -15,6 +15,6 @@ public class Plane {
          * T(n)=T(n-1)+n
          * T(0)=1
          */
-        System.out.println((2 + n) * (n - 1) / 2 + 2);
+        System.out.println(((2 + n) * (n - 1) >> 1) + 2);
     }
 }
