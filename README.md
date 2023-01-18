@@ -14,7 +14,8 @@
 | 首部曲 |  [最大子数组和](https://leetcode.cn/problems/maximum-subarray/)  |  [MaxSubArray.java](https://github.com/DURUII/ADA22/blob/4f9bfc71e734f5d590f7eb8f4397396af14b1c46/Code/DCC/MaxSubArray.java)   |  
 | 神乎其技 |  矩阵乘法   | [matrix.ipynb](https://github.com/DURUII/ADA22/blob/4f9bfc71e734f5d590f7eb8f4397396af14b1c46/Code/DCC/matrix.ipynb)    |  
 | 神乎其技 |  [TOP-K*](https://leetcode.cn/problems/kth-largest-element-in-an-array/)   |  [K_Selection.java](https://github.com/DURUII/ADA22/blob/4f9bfc71e734f5d590f7eb8f4397396af14b1c46/Code/DCC/K_Selection.java)   |  
-| 神乎其技 |  [平面最近邻点](https://www.luogu.com.cn/problem/P1429)   |     | 
+| 神乎其技 |  [平面最近邻点](https://www.luogu.com.cn/problem/P1429)   |  [ClosestPair.java](https://github.com/DURUII/ADA22/blob/b6a92dfd278fd5a04a47586ae8f1aba2ee6f6d6a/Code/DCC/ClosestPair.java)   | 
+
 ## Dynamic Programming
 
 ## Greedy
