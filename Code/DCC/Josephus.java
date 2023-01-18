@@ -27,7 +27,6 @@ public class Josephus {
              * (J(9,7) + 6) % 10 + 1
              * 8 9 10 1 2 3 4 5 6
              */
-
             j[i] = (j[i - 1] + k - 1) % (i) + 1;
         }
         System.out.println(j[n]);
