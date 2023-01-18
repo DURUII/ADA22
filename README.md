@@ -2,7 +2,7 @@
 
 ## Divide, Conquer & Combine
 | Desc. |  Prob.   |  Ref. Code  | 
-|:--:|:---:|:---:|:---:|
+|:--:|:---:|:---:|
 | 引入 |  [斐波那契](https://leetcode.cn/problems/fei-bo-na-qi-shu-lie-lcof/)   |  [Fibonacci.java](https://github.com/DURUII/ADA22/blob/4f9bfc71e734f5d590f7eb8f4397396af14b1c46/Code/DCC/Fibonacci.java)   | 
 | 首部曲 |  [汉诺塔]()   |  [Hanoi.java](https://github.com/DURUII/ADA22/blob/4f9bfc71e734f5d590f7eb8f4397396af14b1c46/Code/DCC/Hanoi.java)   | 
 | ✍️ |  [汉诺四塔](https://www.acwing.com/problem/content/98/)   |  [Hanoi4.java](https://github.com/DURUII/ADA22/blob/4f9bfc71e734f5d590f7eb8f4397396af14b1c46/Code/DCC/Hanoi4.java)  | 
