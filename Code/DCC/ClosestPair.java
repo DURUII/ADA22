@@ -47,7 +47,7 @@ public class ClosestPair {
             return 0;
         });
         // conquer: find the closest pair in each region recursively
-        int index = p.length / 2;
+        int index = p.length >> 1;
         double X = p[index][0];
         double minLeft = closestPair(Arrays.copyOfRange(p, 0, index));
         double minRight = closestPair(Arrays.copyOfRange(p, index, p.length));
