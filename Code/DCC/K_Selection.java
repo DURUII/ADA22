@@ -27,8 +27,8 @@ public class K_Selection {
         int[] median = new int[numOfGroup];
         int index = 0;
         if (remainder != 0) {
-            int res = nums[remainder / 2];
-            if ((remainder & 1) != 1) res = (res + nums[remainder / 2 + 1]) / 2;
+            int res = nums[remainder >> 1];
+            if ((remainder & 1) != 1) res = (res + nums[remainder >> 1 + 1]) >> 1;
             median[numOfGroup - 1] = res;
             index = remainder - 1;
         }
@@ -38,7 +38,7 @@ public class K_Selection {
         }
 
         // FIXME theoretically best pivot (median of medians)
-        int MoM = findKthLargest(median, median.length / 2 > 0 ? median.length / 2 : median.length / 2 + 1);
+        int MoM = findKthLargest(median, median.length >> 1 > 0 ? median.length >> 1 : (median.length >> 1) + 1);
 
         // FIXME randomized median is of competitive edge on LEETCODE
         // int MoM = nums[new Random().nextInt(nums.length)];
