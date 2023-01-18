@@ -13,7 +13,7 @@ public class Fibonacci {
      * Recurrence
      */
     public static int fib(int n) {
-        // base case: directly output
+        // base case: directly output/termination condition
         if (n < 2) return n == 0 ? 0 : 1;
         // recursive case: divide the problem into two sub-problems
         // compute each sub-problem recursively and add them both
