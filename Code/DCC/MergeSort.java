@@ -4,8 +4,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.StreamTokenizer;
+import java.util.Arrays;
 
-// https://www.acwing.com/problem/content/789/
 public class MergeSort {
     static int N;
     static int[] A;
@@ -21,7 +21,6 @@ public class MergeSort {
         }
 
         mergeSort(0, A.length - 1);
-
         for (int i = 0; i < A.length; i++) System.out.print(A[i] + " ");
     }
 
@@ -30,10 +29,10 @@ public class MergeSort {
      */
     static void mergeSort(int l, int r) {
         // base case
-        if (l >= r) return;
+        if (l == r) return;
         // recursive case
         // divide the list into 2 sub-lists
-        // CHECK priority of various operators!!
+        // FIXME priority of various operators!!
         int mid = l + (r - l >> 1);
         // conquer each sub-list recursively
         mergeSort(l, mid);
@@ -46,8 +45,6 @@ public class MergeSort {
         while (p1 <= mid && p2 <= r) tmp[index++] = A[p1] < A[p2] ? A[p1++] : A[p2++];
         while (p1 <= mid) tmp[index++] = A[p1++];
         while (p2 <= r) tmp[index++] = A[p2++];
-        for (int k = l; k <= r; k++) {
-            A[k] = tmp[k - l];
-        }
+        for (int k = l; k <= r; k++) A[k] = tmp[k - l];
     }
 }
