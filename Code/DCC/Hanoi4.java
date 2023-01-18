@@ -14,8 +14,9 @@ public class Hanoi4 {
         if (n == 2) return 3;
         // recursive case
         int min = Integer.MAX_VALUE;
+        // you can draw a rough sketch of the trick
         for (int i = 1; i < n; i++)
-            min = Math.min(min, move4(i) + move3(n - i) + move4(i));
+            min = Math.min(move4(i) + move3(n - i) + move4(i), min);
         return min;
     }
 
