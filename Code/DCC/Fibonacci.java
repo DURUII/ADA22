@@ -11,6 +11,7 @@ public class Fibonacci {
 
     /**
      * Recurrence
+     * O(n^2)
      */
     public static int fib(int n) {
         // base case: directly output/termination condition
