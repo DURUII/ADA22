@@ -1,6 +1,8 @@
 # ADA22
-
 ## Divide, Conquer & Combine
+- partition the problem into independent or disjoint subproblems
+- repeatedly solving the common subsubproblems
+
 | Desc. |  Prob.   |  Ref. Code  | 
 |:--:|:---:|:---:|
 | 递归 |  [斐波那契](https://www.acwing.com/problem/content/19/)   |  [Fibonacci.java](https://github.com/DURUII/ADA22/blob/4f9bfc71e734f5d590f7eb8f4397396af14b1c46/Code/DCC/Fibonacci.java)   | 
@@ -17,6 +19,23 @@
 | 神乎其技 |  [平面最近邻点*](https://www.luogu.com.cn/problem/P1429)   |  [ClosestPair.java](https://github.com/DURUII/ADA22/blob/b6a92dfd278fd5a04a47586ae8f1aba2ee6f6d6a/Code/DCC/ClosestPair.java)   | 
 
 ## Dynamic Programming
+- partition the problem into dependent
+or **overlapping** subproblems
+- avoid re-computation(top-down with memoization, bottom-up with tabulation)
+- an optimal solution can be constructed from optimal solutions to subproblems (ignore non-optimal solutions)
+
+| Desc. |  Prob.   |  Ref. Code  | 
+|:--:|:---:|:---:|
+| 备忘录| [斐波那契](https://leetcode.cn/problems/fei-bo-na-qi-shu-lie-lcof/)|  [Fibonacci2.java](https://github.com/DURUII/ADA22/blob/199105e3efe3d7dccd164c0314fec00be6f47320/Code/DP/Fibonacci2.java)   | 
+| 首部曲|  [铁条切割](https://vjudge.net/problem/Gym-270304F)   | [RodCutting.java](https://github.com/DURUII/ADA22/blob/e8d1a290d248348cceff620e54cf15643d685835/Code/DP/RodCutting.java)    | 
+| 首部曲|   邮票选择  |     | 
+| 首部曲|  矩阵连乘   |     | 
+| 首部曲|     |     | 
+| 变化多端|     |     | 
+| 变化多端|     |     | 
+| 变化多端|     |     | 
+| 变化多端|     |     | 
+
 
 ## Greedy
 
