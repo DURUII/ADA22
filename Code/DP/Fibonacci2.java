@@ -15,7 +15,7 @@ public class Fibonacci2 {
 
     /**
      * TOP-DOWN with Memoization
-     * Avoid recomputation of the same subproblems using memo
+     * Avoid the overlapping sub-problems recursively using memoization
      */
     static int[] a = new int[100 + 5];
     static final int N = 1000000007;
@@ -35,6 +35,7 @@ public class Fibonacci2 {
 
     /**
      * BOTTOM-UP with Tabulation
+     * building up solutions to larger and larger sub-problems
      */
     static int fib2(int n) {
         final int N = 1000000007;
