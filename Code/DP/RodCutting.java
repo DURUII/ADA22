@@ -44,7 +44,7 @@ public class RodCutting {
     }
 
     /**
-     * TOP-DOWN with Memoization
+     * TOP-DOWN with Memoization/DFS
      * Status: Accepted
      */
     static long cut_dp(int n) {
