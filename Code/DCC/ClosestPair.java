@@ -22,6 +22,7 @@ public class ClosestPair {
             p[i][1] = in.nval;
         }
         System.out.printf("%.4f%n", closestPair(p));
+        //System.out.printf("%.0f%n", closestPair(p));
     }
 
     static double closestPair(double[][] p) {
@@ -31,6 +32,7 @@ public class ClosestPair {
             for (int i = 0; i < p.length; i++) {
                 for (int j = i + 1; j < p.length; j++) {
                     double dist = Math.sqrt(Math.pow(p[i][0] - p[j][0], 2) + Math.pow(p[i][1] - p[j][1], 2));
+                    // double dist = Math.pow(p[i][0] - p[j][0], 2) + Math.pow(p[i][1] - p[j][1], 2);
                     if (dist < min) {
                         min = dist;
                     }
@@ -42,8 +44,8 @@ public class ClosestPair {
 
         // divide: find a vertical line L s.t. both planes contain half of the points
         Arrays.sort(p, (o1, o2) -> {
-            if (o1[0] < o2[0]) return -1;
-            else if (o1[0] > o2[0]) return 1;
+            if (o1[0] > o2[0]) return 1;
+            else if (o1[0] < o2[0]) return -1;
             return 0;
         });
         // conquer: find the closest pair in each region recursively
@@ -78,13 +80,14 @@ public class ClosestPair {
         // *# sort remaining points by y
         Arrays.sort(px, (o1, o2) -> {
             if (o1[1] > o2[1]) return 1;
-            else if (o1[1] > o2[1]) return -1;
+            else if (o1[1] < o2[1]) return -1;
             return 0;
         });
 
         for (int i = 0; i < px.length; i++) {
             for (int j = i + 1; j < i + 8 && j < px.length; j++) {
                 double dist = Math.sqrt(Math.pow(px[i][0] - px[j][0], 2) + Math.pow(px[i][1] - px[j][1], 2));
+                // double dist = Math.pow(px[i][0] - px[j][0], 2) + Math.pow(px[i][1] - px[j][1], 2);
                 if (dist < delta) {
                     delta = dist;
                 }
