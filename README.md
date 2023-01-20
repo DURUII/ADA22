@@ -1,6 +1,6 @@
 # ADA22
 ## Divide, Conquer & Combine
-- partition the problem into ==**independent or disjoint**== subproblems
+- partition the problem into subproblems considered <mark>**independent or disjoint**</mark>
 - repeatedly solving the common subproblems
 
 | Desc. |  Prob.   |  Ref. Code  | 
@@ -20,8 +20,8 @@
 
 ## Dynamic Programming
 - partition the problem into dependent
-or ==**overlapping subproblems**==
-- an optimal solution can be constructed from ==**optimal solutions**== to subproblems (ignore non-optimal solutions)
+or <mark>**overlapping subproblems**</mark>
+- an optimal solution can be constructed from <mark>**optimal solutions**</mark> to subproblems (ignore non-optimal solutions)
 - avoid re-computation(top-down with memoization, *bottom-up with tabulation*)
 
 | Desc. |  Prob.   |  Ref. Code  | 
