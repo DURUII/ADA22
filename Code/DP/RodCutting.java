@@ -27,9 +27,27 @@ public class RodCutting {
     }
 
     /**
-     * Top-Down without memoization
+     * Brute-Force Divide and Conquer
+     * Status: Runtime error on test 1
+     */
+    static long cut_brute(int n) {
+        // base case
+        if (n == 0) return 0;
+        if (n == 1) return prices[1];
+        // recursive case
+        long max = Long.MIN_VALUE;
+        for (int i = 1; i <= n - 1; i++) {
+            max = Math.max(max, cut_brute(i) + cut_brute(n - i));
+            // do not forget this situation(no cut), otherwise you will be trapped in a infinite loop
+            max = Math.max(max, prices[n]);
+        }
+        return max;
+    }
+
+    /**
+     * Top-Down WITHOUT memoization
      * Status: Time limit exceeded on test 2
-     * Calling overlapping sub-problems results in poor efficiency
+     * drawback: Re-Computation
      */
     static long cut_naive(int n) {
         // base-case
@@ -44,7 +62,7 @@ public class RodCutting {
     }
 
     /**
-     * TOP-DOWN with Memoization/DFS
+     * TOP-DOWN with Memoization
      * Status: Accepted
      */
     static long cut_dp(int n) {
