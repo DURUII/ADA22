@@ -5,10 +5,10 @@ public class Stamp {
     static int[] values = new int[]{1, 2, 5};
 
     public static void main(String[] args) {
-        System.out.println(coinChange(values, 11));
+        System.out.println(stampChange(values, 11));
     }
 
-    static int coinChange(int[] coins, int amount) {
+    static int stampChange(int[] coins, int amount) {
         int[] values = new int[coins.length + 1];
         for (int i = 1; i < values.length; i++) {
             values[i] = coins[i - 1];
