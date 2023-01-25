@@ -13,7 +13,7 @@ public class BitonicChampion {
         // base case
         if (lo == hi) return new int[]{lo, arr[lo]};
         // recursive case
-        int mid = lo + (hi - lo >> 1);
+        int mid = lo + hi >>> 1;
         int[] l = champion(arr, lo, mid);
         int[] r = champion(arr, mid + 1, hi);
         return l[1] > r[1] ? l : r;
@@ -24,7 +24,7 @@ public class BitonicChampion {
         // base case
         if (lo == hi) return new int[]{lo, arr[lo]};
         // stronger recursive case
-        int mid = lo + (hi - lo >> 1);
+        int mid = lo + hi >>> 1;
         if (arr[mid] < arr[mid + 1])
             return champion2(arr, mid + 1, hi);
         // if (arr[mid] > arr[mid + 1])
