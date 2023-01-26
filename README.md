@@ -25,11 +25,11 @@ or <mark>**overlapping subproblems**</mark>(top-down with memoization, *bottom-u
 
 | Desc. |  Prob.   |  Ref. Code  | 
 |:--:|:---:|:---:|
-| DP| [斐波那契](https://leetcode.cn/problems/fei-bo-na-qi-shu-lie-lcof/)|  [Fibonacci2.java](https://github.com/DURUII/ADA22/blob/199105e3efe3d7dccd164c0314fec00be6f47320/Code/DP/Fibonacci2.java)   | 
+| [DP](https://www.sohu.com/a/619813907_453160)| [斐波那契](https://leetcode.cn/problems/fei-bo-na-qi-shu-lie-lcof/)|  [Fibonacci2.java](https://github.com/DURUII/ADA22/blob/199105e3efe3d7dccd164c0314fec00be6f47320/Code/DP/Fibonacci2.java)   | 
 |[首部曲](https://www.geeksforgeeks.org/cutting-a-rod-dp-13/)|  [板条切割](https://vjudge.net/problem/Gym-270304F)   | [RodCutting.java](https://github.com/DURUII/ADA22/blob/e8d1a290d248348cceff620e54cf15643d685835/Code/DP/RodCutting.java)    | 
 |首部曲| [最少邮票数](https://leetcode.cn/problems/coin-change/)| [Stamp.java](https://github.com/DURUII/ADA22/blob/a5dda449db1a1b9086346726dd971ea12628298c/Code/DP/Stamp.java) | 
 |[✌️](http://pe-cn.github.io/31/)|[欧拉的硬币兑换](https://leetcode.cn/problems/coin-change-ii)|[Coin.java](https://github.com/DURUII/ADA22/blob/main/Code/DP/Coin.java) |
-|首部曲|  [矩阵连乘](https://vjudge.net/problem/ZOJ-1094)   |     | 
+|[首部曲]((https://vjudge.net/problem/ZOJ-1094))|  [结合律](https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication0303)   |     | 
 |首部曲|  [兼职规划](https://leetcode.cn/problems/maximum-profit-in-job-scheduling/)   
 | 变化多端0 |  最长公共子序列   |     | 
 | 变化多端0 |     |     | 
