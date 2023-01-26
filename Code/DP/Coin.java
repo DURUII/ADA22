@@ -8,7 +8,7 @@ public class Coin {
         // Project Euler Answer:  73682
         System.out.println(waysToChange(coins, 200));
     }
-    
+
     static public int waysToChange(int[] coins, int amount) {
         int[] values = new int[coins.length + 1];
         for (int i = 1; i < values.length; i++) {
