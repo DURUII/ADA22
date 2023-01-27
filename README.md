@@ -26,22 +26,30 @@ or <mark>**overlapping subproblems**</mark>(top-down with memoization, *bottom-u
 | Desc. |  Prob.   |  Ref. Code  | 
 |:--:|:---:|:---:|
 | [DP](https://www.sohu.com/a/619813907_453160)| [斐波那契](https://leetcode.cn/problems/fei-bo-na-qi-shu-lie-lcof/)|  [Fibonacci2.java](https://github.com/DURUII/ADA22/blob/199105e3efe3d7dccd164c0314fec00be6f47320/Code/DP/Fibonacci2.java)   | 
-|[首部曲](https://www.geeksforgeeks.org/cutting-a-rod-dp-13/)|  [板条切割](https://vjudge.net/problem/Gym-270304F)   | [RodCutting.java](https://github.com/DURUII/ADA22/blob/e8d1a290d248348cceff620e54cf15643d685835/Code/DP/RodCutting.java)    | 
-|首部曲| [最少邮票数](https://leetcode.cn/problems/coin-change/)| [Stamp.java](https://github.com/DURUII/ADA22/blob/a5dda449db1a1b9086346726dd971ea12628298c/Code/DP/Stamp.java) | 
+|[二部曲](https://www.geeksforgeeks.org/cutting-a-rod-dp-13/)|  [板条切割](https://vjudge.net/problem/Gym-270304F)   | [RodCutting.java](https://github.com/DURUII/ADA22/blob/e8d1a290d248348cceff620e54cf15643d685835/Code/DP/RodCutting.java)    | 
+|二部曲| [最少邮票数](https://leetcode.cn/problems/coin-change/)| [Stamp.java](https://github.com/DURUII/ADA22/blob/a5dda449db1a1b9086346726dd971ea12628298c/Code/DP/Stamp.java) | 
 |[✌️](http://pe-cn.github.io/31/)|[欧拉的硬币兑换](https://leetcode.cn/problems/coin-change-ii)|[Coin.java](https://github.com/DURUII/ADA22/blob/main/Code/DP/Coin.java) |
-|[首部曲]((https://vjudge.net/problem/ZOJ-1094))|  [结合律](https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1/)   | [MatrixChain.java](https://github.com/DURUII/ADA22/blob/4b59257bbac06a16c09b9c55f996d0a51bc2c654/Code/DP/MatrixChain.java)    | 
-|首部曲|  [兼职规划](https://leetcode.cn/problems/maximum-profit-in-job-scheduling/)   | [WeightedIntervalScheduling.java](https://github.com/DURUII/ADA22/blob/a4bd294e37d9055425b1a7b73609a365425c7d15/Code/DP/WeightedIntervalScheduling.java) |
+|[二部曲]((https://vjudge.net/problem/ZOJ-1094))|  [结合律](https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1/)   | [MatrixChain.java](https://github.com/DURUII/ADA22/blob/4b59257bbac06a16c09b9c55f996d0a51bc2c654/Code/DP/MatrixChain.java)    | 
+|二部曲|  [兼职规划](https://leetcode.cn/problems/maximum-profit-in-job-scheduling/)   | [WeightedIntervalScheduling.java](https://github.com/DURUII/ADA22/blob/a4bd294e37d9055425b1a7b73609a365425c7d15/Code/DP/WeightedIntervalScheduling.java) |
 | 变化多端 |  编辑距离   |     | 
-| 变化多端 |  维特比算法   |     | 
-| 变化多端 |  0-1背包（**每项**物品只能拿一个）|     | 
-| 变化多端 | 完全背包（每项物品可以拿**多个**）|     | 
-| 变化多端 | 多重背包（多重空间限制）|     | 
-| 变化多端 | 分组背包（**每一类**物品最多拿一个）|     | 
+| 变化多端 |  维特比算法   |    | 
+| 变化多端 |  0-1背包 |     | 
+| 变化多端 | 无限背包 |     | 
+| 变化多端 | 多重背包|     | 
+| 变化多端 | 分组背包|     | 
 
 ## Greedy
+- has optimal sub-structure
+- make the greedy choice
+- no overlapping subproblems
+
+| Desc. |  Prob.   |  Ref. Code  | 
+|:--:|:---:|:---:|
+|局部最优| | |
+|三部曲| | |
+|https://www.luogu.com.cn/problem/P2001| | |
 
 ## Graph
-
 
 ## Non-deterministic Polynomial Complete
 
