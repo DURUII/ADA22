@@ -33,9 +33,10 @@ or <mark>**overlapping subproblems**</mark>(top-down with memoization, *bottom-u
 |首部曲|  [兼职规划](https://leetcode.cn/problems/maximum-profit-in-job-scheduling/)   | [WeightedIntervalScheduling.java](https://github.com/DURUII/ADA22/blob/a4bd294e37d9055425b1a7b73609a365425c7d15/Code/DP/WeightedIntervalScheduling.java) |
 | 变化多端 |  编辑距离   |     | 
 | 变化多端 |  维特比算法   |     | 
-| 变化多端 |  0-1背包（每项物品只能拿一个）   |     | 
-| 变化多端 | 完全背包（每项物品可以拿多个）    |     | 
-| 变化多端 |     |     | 
+| 变化多端 |  0-1背包（**每项**物品只能拿一个）|     | 
+| 变化多端 | 完全背包（每项物品可以拿**多个**）|     | 
+| 变化多端 | 多重背包（多重空间限制）|     | 
+| 变化多端 | 分组背包（**每一类**物品最多拿一个）|     | 
 
 ## Greedy
 
